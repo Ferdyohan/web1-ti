@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Learning HTML Tables</title>
+        <link rel="icon" type="image/x-icon" href="image/favicon-32x32.png">
+    </head>
+    <body>
+        <h1>Students Data</h1>
+
+        <table border="6">
+            <tr>
+                <!-- This is  the tables header-->
+                <th>Num.</th>
+                <th colspan="2">NIM/Name</th>
+           
+                <th>Status</th>
+                <th>Attendance</th>
+            </tr>
+            <tr>
+                <!--This is a table data-->
+                <td>1.</td>
+                <td>2281024</td>
+                <td>Ferdi</td>
+                <td>Inside</td>
+                <td>Present</td>
+            </tr>
+            <tr>
+                <td>2.</td>
+                <td>2281098</td>
+                <td>Perd</td>
+                <td rowspan="2">Inside</td>
+                <td>Absent</td>
+            </tr>
+                <td>3.</td>
+                <td>2281099</td>
+                <td>Asep</td>
+                <td>Inside</td>
+            
+            </tr>
+            <tr>
+                <td>4.</td>
+                <td>2281096</td>
+                <td>Jefta</td>
+                <td>Outside</td>
+                <td rowspan="2">Absent</td>
+            </tr>
+            <tr>
+                <td>5.</td>
+                <td>2281081</td>
+                <td>Patrick</td>
+                <td>Inside</td>
+                
+            </tr>
+
+        </table>
+       
+       
+       <br>
+       <br>
+
+       
+        <table border="6">
+            <tr>
+                <th>A</th>
+                <th colspan="4">B</th>
+            </tr>
+            <tr>
+                <th rowspan="2">C</th>
+                <th>D</th>
+                <th>E</th>
+                <th rowspan="3">F</th>
+            </tr>
+            <tr>
+                <th>G</th>
+                <th rowspan="2">H</th>
+            </tr>
+            <tr>
+                <th colspan="2">I</th>
+            </tr>
+            <tr>
+                <th colspan="4">J</th>
+            </tr>
+        </table>
+
+
+    </body>
+
+
+
+
+
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Learning HTML Forms</title>
+    <link rel="icon" type="image/x-icon" href="image/favicon-32x32.png">
+
+
+</head>
+
+<body>
+    <h1>Registration Form</h1>
+    <form action="process.php" method="post">
+        <fieldset>
+            <legend>Personal Data</legend>
+            <!--Input type text-->
+            <label for="fname">First Name </label><br>
+            <input type="text" id="fname" name="fname" required><br>
+            <label for="lname">Last Name </label><br>
+            <input type="text" id="lname" name="lname"><br>
+
+
+
+            <!--Input type password-->
+            <label for="password">Password</label><br>
+            <input type="password" id="password" name="password">
+
+
+
+            <br><br>
+            <!--Select element-->
+
+            <label for="religion">Choose your relegion</label><br>
+            <select id="religion" name="religion" multiple>
+                <option value="Christian">Christian</option>
+                <option value="Moslem">Moslem</option>
+                <option value="Budhist">Budhist</option>
+                <option value="Hindu">Hindu</option>
+
+            </select>
+
+            <br><br>
+
+            <!--Indput Type Color -->
+            <label for="favcolor">Choose your Favorite Color</label><br>
+            <input type="color" id="favcolor" name="favcolor">
+
+            <br><br>
+
+            <!--Input type date-->
+            <label for="birthday">Birthday:</label><br>
+            <input type="date" id="birthday" name="birthday">
+
+            <br><br>
+
+            <!--Input type date time local-->
+            <label for="regiontime">Indonesia (Date and Time):</label><br>
+            <input type="datetime-local" id="regiontime" name="regiontime">
+
+            <br><br>
+
+            <!--input type email-->
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email">
+
+            <br><br>
+
+            <!--input type file-->
+            <label for="myfile">Select a file:</label>
+            <input type="file" id="myfile" name="myfile">
+            <br><br>
+
+            <!--input type hidden-->
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname"><br><br>
+            <input type="hidden" id="custId" name="custId" value="2281">
+
+            <br>
+            <!--input type number-->
+            <label for="quantity">Quantity (between 1 and 10):</label><br>
+            <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+            <br><br>
+            <!--input type month-->
+            <label for="ultah">Birthday (month and year):</label><br>
+            <input type="month" id="ultah" name="ultah">
+
+            <br><br>
+
+            <!--input type image-->
+            <input type="image" src="Image/unai-home-banner_home-with-a-beautiful-campus.jpg" alt="Submit" width="300"
+                height="150">
+
+            <br><br>
+
+            <!--input type range-->
+            <label for="vol">Volume (between 0 and 100):</label>
+            <input type="range" id="vol" name="vol" min="0" max="100">
+
+            <br><br>
+
+            <!--input type search-->
+            <label for="gsearch">Search Google:</label><br>
+            <input type="search" id="gsearch" name="gsearch">
+            <input type="submit" value="Submit">
+
+            <br><br>
+
+            <!--input type tel-->
+            <label for="phone">Enter your phone number:</label><br>
+            <input type="tel" id="phone" placeholder="08--836--129--" name="phone" pattern="[0-9]{4}-[0-9]{4}-[0-9]{4}">
+
+            <br><br>
+
+            <!--input type Time-->
+            <label for="time">Select a time:</label><br>
+            <input type="time" id="time" name="time">
+
+            <br><br>
+
+            <!--input type url -->
+            <label for="homepage">Add your homepage:</label><br>
+            <input type="url" id="homepage" name="homepage">
+
+            <br><br>
+
+            <!--input type week-->
+            <label for="week">Select a week:</label><br>
+            <input type="week" id="week" name="week"><br>
+
+
+            <br><br>
+            <!--Textarea element-->
+            <br><label for="comment">Write your comment below</label><Br>
+            <textarea id="comment" name="comment" rows="10" cols="30"></textarea>
+
+
+            <br>
+            <!--Input type radio-->
+
+            <p>Choose your gender:</p>
+            <input type="radio" id="male" name="gender" value="Male">
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="Female" <label for="female">Female</label>
+
+            <br><br>
+
+            <!--Input typr checkbox-->
+
+            <p>Choose your hobbies:</p>
+            <input type="checkbox" id="hobby1" name="hobby1" value="Badminton" <label for="hobby1">Badminton</label><br>
+            <input type="checkbox" id="hobby2" name="hobby2" value="Futsal" <label for="hobby2">Futsal</label><br>
+            <input type="checkbox" id="hobby3" name="hobby3" value="Football" <label for="hobby3">Football</label><br>
+            <input type="checkbox" id="hobby4" name="hobby4" value="Basketball" <label
+                for="hobby4">Basketball</label>br>
+
+
+            <br><br>
+            <!--Input type submit-->
+            <input type="submit">
+
+            <!--Input type reset-->
+            <input type="reset">
+
+        </fieldset>
+    </form>
+
+
+</body>
+
+</html>
