@@ -2,8 +2,124 @@
 <html>
     <head>
         <title>Learn CSS part 4</title>
+        <style>
+            a{
+                color: pink;
+                text-decoration: none;
+                border: 1px solid deeppink;
+                padding: 10px 20px;
+                background-color: hotpink;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 20px;
+            }
+            a:link{
+                color: white;
+            }
+            a:visited{
+                color: white;
+            }
+            a:hover{
+                color: white;
+                background-color: deeppink;
+            }
+            a:active{
+                color: deeppink;
+            }
+            .fti{
+                color: pink;
+                text-decoration: none;
+                border: 1px solid green;
+                padding: 10px 20px;
+                background-color: green;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 20px;
+            }
+            .fti:link{
+                color: white;
+            }
+            .fti:visited{
+                color: white;
+            }
+            .fti:hover{
+                color: white;
+                background-color: greenyellow;
+            }
+            .fti:active{
+                color: green;
+            }
+            .unai{
+                color: pink;
+                text-decoration: none;
+                border: 1px solid blue;
+                padding: 10px 20px;
+                background-color: blue;
+                font-family: Arial, Helvetica, sans-serif;
+                border-radius: 20px;
+            }
+            .unai:link{
+                color: white;
+            }
+            .unai:visited{
+                color: white;
+            }
+            .unai:hover{
+                color: white;
+                background-color: aqua;
+            }
+            .unai:active{
+                color: blue;
+            }
+            ul.web{
+                list-style-type: square;
+                list-style-position: inside;
+                background-color: pink;
+                border: 2px solid black;
+            }
+            ul li{
+                background-color: wheat;
+            }
+
+            ul.nav{
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                width: 200px;
+                background-color: #f1f1f1;
+            }
+            ul.nav li a{
+                display: block;
+                color: #000;
+                border: none;
+                border-radius: 0;
+                padding: 8px 16px;
+                text-decoration: none;
+                background-color: #f1f1f1;
+            }
+            ul.nav li a:hover{
+                background-color: #555;
+                color: white;
+            }
+        </style>
     </head>
     <body>
         <h1>Learn CSS part 4</h1>
+        <a href="https://google.com">Link to Google</a>
+        <a class="fti" href="https://fti.unai.edu">Link to FTI UNAI</a>
+        <a class="unai" href="https://unai.edu">Link to UNAI</a>
+
+
+        <p>My favorite foods</p>
+        <ul class="web">
+            <li>Rendang</li>
+            <li>Sate</li>
+            <li>Fried rice</li>
+        </ul>
+
+        <ul class="nav">
+            <li><a href="hello.html">Home</a></li>
+            <li><a href="https://fti.unai.edu">FTI UNAI</a></li>
+            <li><a href="https://unai.edu">UNAI</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
     </body>
 </html>
