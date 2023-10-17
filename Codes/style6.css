@@ -50,3 +50,15 @@ img{
 h1{
     line-height: 100px;
 }
+ul.horiz{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+ul.horiz li{
+    background-color: aliceblue;
+}
+
+
