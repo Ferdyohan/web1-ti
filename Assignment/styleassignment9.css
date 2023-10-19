@@ -1,0 +1,397 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+  }
+  header {
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    box-shadow: 1px 2px rgba(0, 0, 0, 0.1);
+  }
+  #left_header a {
+    margin-right: 40px;
+    display: flex;
+  }
+  #left_header {
+    margin-left: 100px;
+    border-right: 1px solid red;
+  }
+  a span {
+    color: aliceblue;
+    margin-right: 5px;
+    background-color: blue;
+    border-radius: 50%;
+  }
+  a {
+    display: flex;
+    margin: 10px;
+  }
+  .center_header {
+    display: flex;
+  }
+  input {
+    padding: 10px;
+    padding-right: 40px;
+    width: 300px;
+    border: 0.1px solid gray;
+    border-radius: 30px;
+  }
+  .center_header span {
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 270px;
+    display: block;
+  }
+  
+  .right_header {
+    border-left: 1px red solid;
+    display: flex;
+    margin-right: 100px;
+    margin-left: 20px;
+  }
+  .right_header a {
+    margin-left: 10px;
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  main {
+    font-size: 16px;
+    width: 70%;
+    margin: auto;
+  }
+  
+  .nav ul {
+    list-style-type: none;
+    display: flex;
+    color: aliceblue;
+    background-color: rgb(175, 172, 172);
+  }
+  .nav li {
+    margin-left: 5px;
+    margin: 10px;
+  }
+  .nav ul img {
+    margin-left: 3px;
+    width: 40px;
+  }
+  .navi ul {
+    margin: 10px auto;
+    display: flex;
+    list-style-type: none;
+  }
+  .isi {
+    width: 65%;
+  }
+  .judul {
+    text-align: center;
+  }
+  figure img {
+    width: 100%;
+  }
+  .teks {
+    margin-top: 10px;
+    text-align: justify;
+    width: 80%;
+  }
+  .teks p {
+    margin-top: 9px;
+  }
+  .ads {
+    border-left: 2px solid blue;
+  }
+  .ads p {
+    font-weight: bolder;
+    margin: 10px;
+  }
+  .promo {
+    border-top: 1px solid black;
+    margin-right: 5px;
+    width: 30%;
+    font-size: 12px;
+  }
+  
+  .berita span {
+    margin-right: 10px;
+    font-size: 22px;
+    background-color: white;
+    color: gray;
+  }
+  .berita h2,
+  .review h2 {
+    margin: 20px auto;
+  }
+  
+  .review a {
+    display: flex;
+  }
+  
+  .img img {
+    width: 130px;
+    margin-right: 8px;
+  }
+  .promo .fodeo a {
+    display: grid;
+    text-wrap: balance;
+    width: 80px;
+  }
+  .fodeo {
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 kolom dengan lebar yang sama */
+    grid-gap: 16px;
+  }
+  .fodeo a .img img {
+    width: 130px;
+  }
+  .info {
+    margin-top: 5px;
+    font-size: 10px;
+  }
+  .info2 {
+    margin-top: 5px;
+    font-size: 15px;
+  }
+  .promo h2 {
+    margin-top: 6px;
+  }
+  .iklan {
+    background-color: antiquewhite;
+    margin-top: 20px;
+    height: 120vh;
+    text-align: center;
+  }
+  .iklan p {
+    margin-top: 10px;
+  }
+  footer {
+    border-top: 4px solid transparent;
+    border-image: linear-gradient(100deg, #562b77 30%, #aa248c 100%);
+    border-image-slice: 1;
+    clear: both;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrap {
+    width: 100%; /* Maksimum lebar konten footer */
+    margin: 40px; /* Pusatkan footer di tengah halaman */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col1 {
+    flex: 1.3; /* Bagian kolom pertama akan mengisi sebanyak mungkin ruang */
+  }
+  .col1 p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .col1 ul {
+    text-align: center;
+  }
+  
+  .col3,
+  .col4,
+  .col5 {
+    flex: 1; /* Bagian kolom kedua hingga kelima akan mengisi sebanyak mungkin ruang */
+  }
+  
+  .col2 ul {
+    list-style: none; /* Hilangkan tanda bullet pada daftar */
+    position: relative;
+  }
+  
+  .col2 {
+    display: flex;
+    vertical-align: top;
+    flex: 1.2;
+  }
+  
+  .col2 ul {
+    position: relative;
+    padding: 0;
+  }
+  
+  .logo8 {
+    width: 120px;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img[src$=".svg"] {
+    max-width: 40px;
+    margin-right: 5px;
+  }
+  
+  article {
+    display: block;
+  }
+  .media {
+    position: relative;
+    overflow: hidden;
+    flex: 1;
+  }
+  
+  .poster {
+    margin-top: 15px;
+    width: 100%;
+    border: 1px slategrey solid;
+  }
+  .body {
+    font-size: 15px;
+    width: 100%;
+    margin: 5px;
+  }
+  .identity {
+    flex-direction: row;
+    display: flex;
+  }
+  .nama {
+    display: inline;
+  }
+  .user,
+  .name {
+    display: flex;
+  }
+  p span {
+    color: rgb(109, 109, 233);
+  }
+  .cls {
+    display: grid;
+  }
+  .tag {
+    display: flex;
+    margin-top: 40px;
+  }
+  .tag p {
+    padding: 10px;
+    margin-right: 10px;
+    background-color: #f0f0f0;
+  }
+  .jumlah {
+    display: grid;
+    text-align: center;
+    margin: 10px;
+  }
+  .keterangan {
+    font-size: 13px;
+    margin: auto;
+  }
+  #angka {
+    font-size: 15px;
+    color: #b13298;
+  }
+  .ket {
+    color: #98a573;
+  }
+  
+  .rekomendasi {
+    width: 100%;
+    background-color: #666666;
+  }
+  .konten {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .konten1 {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .artikel a {
+    display: grid;
+  }
+  
+  .head2 {
+    display: flex;
+    justify-content: space-between;
+  }
+  .head_card1 img {
+    width: 160px;
+  }
+  .head_card img {
+    width: 120px;
+  }
+  .rekomendasi1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    border-top: 1px solid red;
+    border-bottom: 1px solid red;
+  }
+  
+  .content_teks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .content_teks p {
+    width: 100%;
+  }
+  .isi1.sticky{
+    position: sticky;
+    top: 0;
+  }
+  .komentar{
+    border-radius: 10px;
+    display: grid;
+    
+    margin: 10px;
+    background-color: #666666;
+  }
+  .inputan{
+    margin: 10px;
+    background-color: #666666;
+    display: flex;
+    flex-direction: column;
+  }
+  textarea{
+      border-radius: 20px;
+  }
+  .ktrng{
+    display: flex;
+    margin: 13px;
+    justify-content: space-between;
+  }
+  button{
+    display: flex;
+  border-radius: 8px;
+    align-items: center;
+  }
+  
+  button span{
+    margin-left: 3px;
+  }
+  .komen{
+    display: flex;
+  }
+  .komen a{
+    border-radius: 30px;
+    padding: 7px;
+      background-color:#666666;
+  }
+  .see_status{
+    margin: 20px;
+    text-align: center;
+  }
+  .see_status h6,p{
+    margin-top: 20px;
+  }
