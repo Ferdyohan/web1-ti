@@ -163,3 +163,299 @@ h1 {
     padding: 100px;
     text-align: center;
 }
+.content {
+    width: 65%;
+    margin-left: 20px;
+    padding-bottom: 50px;
+    border-bottom: 3px solid #f0f0f0;
+    float: left;
+}
+
+.content .zionsanvin {
+    border: 1px solid #cfd9de;
+    border-radius: 10px;
+    height: 900px;
+}
+
+.content .zionsanvin .toppage {
+    display: flex;
+    align-items: center;
+}
+
+.content .zionsanvin .toppage li, .content .zionsanvin .toppage a {
+    background-color: white;
+    margin: 0;
+}
+
+.content .zionsanvin .toppage .account {
+    margin-top: 5px;
+    width: 150px;
+}
+
+.content .zionsanvin .toppage .account a {
+    padding: 0;
+}
+
+.content .zionsanvin .toppage .account a span{
+    color: #006fd6;
+}
+
+.zionsimg {
+    width: 50px;
+    border-radius: 50px;
+}
+
+.verified {
+    width: 15px;
+}
+
+.xlogo {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 0;
+    left: 230px;
+}
+
+.zionsanvin p {
+    margin-left: 10px;
+}
+
+.content .zionsanvin p a {
+    color: .1d9bf0;
+    font-weight: 100;
+}
+
+.content .zionsanvin p a:hover {
+    text-decoration: underline;
+}
+
+.content .zionsanvin .zionsxiaomi14 {
+    width: 458px;
+    margin: 5px 20px;
+    border-radius: 20px;
+}
+
+.content .zionsanvin .datepost {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 91%;
+    margin: 0 20px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #cfd9de;
+}
+
+.content .zionsanvin .datepost .timepost {
+    font-size: 13px;
+    font-weight: 100;
+    color: .536471;
+}
+
+.content .zionsanvin .datepost .timepost:hover {
+    text-decoration: underline;
+}
+
+.content .zionsanvin .datepost .info {
+    width: 20px;
+}
+
+.content .zionsanvin .xfiture {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 0;
+    margin: 0 10px;
+}
+
+.content .zionsanvin li, .content .zionsanvin li a {
+    background-color: white;
+    font-size: 14px;
+    color: #536471;
+}
+
+.content .zionsanvin .share {
+    font-weight: bolder;
+}
+
+.content .zionsanvin .heart a:hover {
+    color: #f91880;
+    cursor: pointer;
+}
+
+.content .zionsanvin .comm a:hover {
+    color: #1d9bf0;
+    cursor: pointer;
+}
+
+.content .zionsanvin .share:hover {
+    color: .00cc00;
+    cursor: pointer;
+}
+
+.content .zionsanvin .xfiture img {
+    width: 14px;
+}
+
+.readreply {
+    text-align: center;
+    padding: 5px 0;
+    margin: 10px 20px;
+    border: 1px solid #cfd9de;
+    border-radius: 15px;
+}
+
+.readreply a {
+    font-size: 13px;
+    color: #006fd6;
+}
+
+.readreply:hover {
+    background-color: #a3d2ff;
+}
+
+.writer, .date {
+    text-align: center;
+    padding: 5px 0;
+}
+
+.writer {
+    color: #666;
+    font-weight: bolder;
+    font-size: 14px;
+}
+
+.writer span {
+    color: #aa248c;
+}
+
+.date {
+    font-size: 13px;
+    color: #999;
+}
+
+figure {
+    margin: 10px 0;
+}
+
+figcaption {
+    font-size: 13px;
+}
+
+article {
+    width: 75%;
+}
+
+article p {
+    margin-left: 0;
+}
+
+iframe {
+    width: 100%;
+    height: 280px;
+}
+
+.baca {
+    border-left: 5px solid #562b77;
+    padding: 0 10px;
+}
+
+.baca p {
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
+.baca p, a {
+    font-weight: bolder;
+}
+
+.baca a{
+    color: #562b77;
+}
+footer {
+    border-top: 4px solid transparent;
+    border-image: linear-gradient(100deg, #562b77 30%, #aa248c 100%);
+    border-image-slice: 1;
+    clear: both;
+    background-color: #f0f0f0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .wrap {
+    width: 100%; 
+    margin: 40px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .col1 {
+    flex: 1.3; 
+  }
+  .col1 p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+  }
+  .col1 ul {
+    text-align: center;
+  }
+  
+  .col3,.col4,.col5 {
+    flex: 1;  
+  }
+  
+  .col1 ul {
+    list-style: none; 
+    position: relative;
+    padding: 0;
+  }
+  .col2 ul {
+    list-style: none; 
+    position: relative;
+    padding: 0;
+  }
+  .col3 ul {
+    list-style: none; 
+    position: relative;
+    padding: 0;
+  }
+  .col4 ul {
+    list-style: none; 
+    position: relative;
+    padding: 0;
+  }
+  .col5 ul {
+    list-style: none; 
+    position: relative;
+    padding: 0;
+  }
+  
+  .col2 {
+    display: flex;
+    vertical-align: top;
+    flex: 1.2;
+  }
+  
+  .logo8 {
+    width: 120px;
+  }
+  
+  p {
+    font-weight: bold;
+  }
+  
+  h6 {
+    font-size: 16px;
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  
+  img[src$=".svg"] {
+    max-width: 40px;
+    margin-right: 5px;
+  }
