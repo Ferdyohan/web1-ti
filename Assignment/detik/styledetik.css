@@ -128,7 +128,6 @@ h1 {
 }
 .nav1 ul {
     display: flex;
-    justify-content: space-around;
     list-style-type: none;
     text-decoration: none;
 
