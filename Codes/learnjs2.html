@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn JS part 2</title>
+</head>
+<body>
+    <h1>Learn JS part 2</h1>
+
+    <button onclick="myFerdi()">Click Me</button>
+    
+
+    <script>
+        const pi = 3.14;
+        let x = 1;
+
+        x = 2;
+       // pi = 3;
+        console.log(x);
+        console.log(pi);
+
+        function myFerdi(){
+            alert("My name is Ferdi")
+            newFunction()
+        }
+
+        function newFunction(){
+            alert("I Love JS")
+        }
+
+        x = 3;
+        let y = 4;
+        let z = 2;
+
+        function add(x,y, z){
+            return x + y + z;
+        }
+        
+        function substract(a,b){
+            return a-b;
+        }
+
+        document.write("<br>")
+        document.write(add(x,y,z));
+        document.write("<br>" + substract(y,z))
+    </script>
+    <br><br>
+
+    Name:<input id="name" type="text"><button>Send!!</button>
+
+    <script>
+        function display(){
+            let name = document.getElementById("name").value;
+            // alert(name);
+            // document.write(name);
+            document.getElementById("ds").innerHTML = name;
+        }
+         
+        <h2 id="ds"></h2>
+    </script>
+
+</body>
+</html>
