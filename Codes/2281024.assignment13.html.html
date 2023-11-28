@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Events</title>
+</head>
+<body>
+    <div id="myElement" style="width: 800px; height: 200px; background-color: lightblue;">KE siniiiiiiiii</div>
+    <br><br>
+    <input type="text" id="inputField" onkeydown="myFunction(event)">
+    <br><br>
+    <label for="colorSelect">Pilih warna:</label>
+<select id="colorSelect" onchange="changeColor()">
+  <option value="Merah">Merah</option>
+  <option value="Hijau">Hijau</option>
+  <option value="Biru">Biru</option>
+</select>
+<br><br>
+<div id="message"></div>
+<br><br>
+ 
+<label for="nameInput">Nama:</label>
+<input type="text" id="nameInput">
+
+ 
+    <script>
+        var myElement = document.getElementById("myElement");
+
+myElement.addEventListener("mouseover", function() {
+    myElement.style.backgroundColor = "lightcoral";
+    myElement.textContent = "ahahaha berubah";
+    });
+
+myElement.addEventListener("mouseout", function() {
+    myElement.style.backgroundColor = "lightblue";
+    myElement.textContent = "KE siniiiiiiiii";
+});
+    function myFunction(event) {
+      var keyCode = event.keyCode || event.which;
+      if (keyCode === 13) {
+        alert('Anda menekan tombol Enter!');
+        } 
+    }
+
+    function onPageLoad() {
+  alert('Halaman sepenuhnya dimuat.');
+
+}
+window.addEventListener('load', onPageLoad);   
+
+function changeColor() {
+  var colorSelect = document.getElementById('colorSelect');
+  var selectedColor = colorSelect.value;
+  var message = document.getElementById('message');
+
+  message.innerHTML = 'Anda memilih warna ' + selectedColor + '.';
+}
+function onNameInputFocus(event) {
+  var message = document.getElementById('message');
+  message.innerHTML = 'Elemen input mendapatkan fokus.';
+  
+}
+
+var nameInput = document.getElementById('nameInput');
+nameInput.addEventListener('focusin', onNameInputFocus);
+
+    </script>
+</body>
+</html> 
